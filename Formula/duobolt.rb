@@ -1,26 +1,26 @@
 class Duobolt < Formula
   desc "Fast duplicate file finder using BLAKE3 hashing"
   homepage "https://duobolt.app"
-  version "0.3.85"
+  version "0.3.86"
   license "Freeware"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://downloads.duobolt.app/mac/cli/aarch64/duobolt-cli-0.3.85.tar.gz"
-      sha256 "2e15cc2a2b85b0ecfd72bffb332c411f0a311bd79466ad0009e52d2d5ef4d2ef"
+      url "https://downloads.duobolt.app/mac/cli/aarch64/duobolt-cli-0.3.86.tar.gz"
+      sha256 "e6f68ffce2c9a9afcf6bf4177ba77be1f7f7c27b8296d183cff5ba77b2e4747c"
     else
-      url "https://downloads.duobolt.app/mac/cli/x86_64/duobolt-cli-0.3.85.tar.gz"
-      sha256 "682af62bc73cb5385ed787ffd716f677a9ddfccf63e97513018e1e293e3fd27e"
+      url "https://downloads.duobolt.app/mac/cli/x86_64/duobolt-cli-0.3.86.tar.gz"
+      sha256 "220e4bb5eb60d1ce388863cdd74fa5c0cdf111e2a0ee8ef9887ed38b9d9364a9"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://downloads.duobolt.app/linux/cli/aarch64/duobolt-cli-0.3.85.tar.gz"
-      sha256 "8f34399b3f80a92af75743bbceac2bcabf16a3e7a1b3be90d661af1bc7bd1a21"
+      url "https://downloads.duobolt.app/linux/cli/aarch64/duobolt-cli-0.3.86.tar.gz"
+      sha256 "ab2301018e7c419a8a60e5bccdcef71be4d1325d6b22bbf8f5c00884eb52421a"
     else
-      url "https://downloads.duobolt.app/linux/cli/x86_64/duobolt-cli-0.3.85.tar.gz"
-      sha256 "80316303f3b16e17ed3f52796b4e8eec50a80075aade0a0a35dc54ef395e9505"
+      url "https://downloads.duobolt.app/linux/cli/x86_64/duobolt-cli-0.3.86.tar.gz"
+      sha256 "904ef031ca1c30ebfc63c1e5a5e86d630c9194f3d6814f984795d8e8501097fd"
     end
   end
 
@@ -35,11 +35,12 @@ class Duobolt < Formula
 
   def caveats
     <<~EOS
-      Documentation: https://duobolt.app/docs/
-
-      Usage:
-        duobolt-cli scan /path/to/folder
+      CLI usage:
+        duobolt-cli <directory...> [options]
+        duobolt-cli ~/Documents --ignore-system-files --output=json
         duobolt-cli --help
+
+      Docs: https://duobolt.app/docs/
     EOS
   end
 end
